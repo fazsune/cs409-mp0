@@ -1,1 +1,44 @@
 /* Your CSS here. */
+
+html {
+	color-scheme: light; /* dark.. :( */
+}
+
+.main {
+	margin: 50px auto;
+	border: inset black 7px;
+	background: linear-gradient(hsl(0, 0%, 50%), hsl(0, 0%, 30%));
+	padding: 20px;
+	width: 750px;
+	color: white;
+	text-align: center;
+}
+
+.caption {
+	margin: 0 auto;
+	width: 150px;
+	font-size: 8px;
+}
+
+.links {
+	margin-top: 5px;
+}
+
+.info {
+	margin: 25px 10%;
+	text-align: left;
+}
+
+h1 {
+	font-family: 'Helvetica';
+	margin-bottom: 0px;
+}
+
+a {
+	color: bisque;
+	font-style: italic;
+}
+
+a:visited {
+	color: beige;
+}

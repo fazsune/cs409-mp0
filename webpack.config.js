@@ -31,6 +31,8 @@ module.exports = (env, argv) => {
         patterns: [
           { from: path.resolve(__dirname, 'src/index.html'), to: path.resolve(__dirname, 'build/index.html') },
           { from: path.resolve(__dirname, 'src/assets'), to: path.resolve(__dirname, 'build/assets'), noErrorOnMissing: true },
+          { from: path.resolve(__dirname, 'src/css'), to: path.resolve(__dirname, 'build/css'), noErrorOnMissing: true },
+          { from: path.resolve(__dirname, 'src/js'), to: path.resolve(__dirname, 'build/js'), noErrorOnMissing: true },
         ],
       }),
     ],
